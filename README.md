@@ -12,7 +12,9 @@ website\application\controllers\Grpc.php
 		"grpc/grpc": "^1.0",
 		"rmccue/requests": ">=1.0"
 }
+
 需要安装 grpc 扩展
+
 extension=grpc.so
 extension=protobuf.so
 
