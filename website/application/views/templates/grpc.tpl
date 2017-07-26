@@ -40,7 +40,6 @@
    <label>开发环境</label>
     <select class="ui fluid dropdown" id="address_select">
     <option value="X.X.X.X:6565">测试环境X.X.X.X:6565</option>
-<!--    <option value="10.32.186.11:6565">测试环境10.32.186.11:6565</option> -->
     <option value="X.X.X.X:6565">正式环境X.X.X.X:6565</option>
     </select>
   </div>
@@ -110,7 +109,7 @@
   </div>
  {%/foreach%}
 </div>
-<div class="ui top attached label">城事汇 Grpc Services 列表</div>
+<div class="ui top attached label"> Grpc Services 列表</div>
 </div>
 <div class="ui modal">
   <i class="close icon"></i>

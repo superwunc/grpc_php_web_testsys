@@ -15,20 +15,13 @@ class Grpc extends CI_Controller {
     {
     	parent::__construct();
     	$this->load->helper('file');
-    	/*
-    	if (strpos($_SERVER["HTTP_HOST"], "appweb") === FALSE) {
-    		$this->grpc_host = "10.32.186.11:6565";
-    	}
-    	else {
-    		$this->grpc_host = "app.i-dalian.cn:56565";
-    	}
-    	*/
+    
     	$protos = get_filenames(APPPATH.'proto/');
     	foreach ($protos as $proto) {
     		require_once(APPPATH.'proto/'.$proto);
-    		//var_dump($proto);
+    		
     	}
-    //	$serviceDatas = [];
+   
     	foreach ($protos as $proto) {
     		$fileName = explode(".", $proto)[0];
     		$className = "sc\\".strtolower($fileName)."\\".$fileName."ServiceClient";
