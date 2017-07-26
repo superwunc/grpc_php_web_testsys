@@ -39,9 +39,9 @@
   <div class="field">
    <label>开发环境</label>
     <select class="ui fluid dropdown" id="address_select">
-    <option value="10.32.186.20:6565">测试环境10.32.186.20:6565</option>
+    <option value="X.X.X.X:6565">测试环境X.X.X.X:6565</option>
 <!--    <option value="10.32.186.11:6565">测试环境10.32.186.11:6565</option> -->
-    <option value="app.i-dalian.cn:56565">正式环境app.i-dalian.cn:56565</option>
+    <option value="X.X.X.X:6565">正式环境X.X.X.X:6565</option>
     </select>
   </div>
  

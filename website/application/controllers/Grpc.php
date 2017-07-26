@@ -5,10 +5,10 @@ require_once(FCPATH.'vendor/autoload.php');
 class Grpc extends CI_Controller {
 
 
-	private $grpc_host = "10.32.186.11:6565";
+	private $grpc_host = "";
 
 
-    //private $grpc_host =  "app.i-dalian.cn:56565";
+   
 	private $serviceDatas = [];
 
 	public function __construct()
