@@ -1,0 +1,15 @@
+{
+	"description": "城市汇 App Web",
+	"name": "gcks/app_web",
+	"type": "project",
+	"require": {
+		"grpc/grpc": "^1.0",
+		"rmccue/requests": ">=1.0"
+	},
+	"repositories": {
+		"packagist": {
+			"type": "composer",
+			"url": "https://packagist.phpcomposer.com"
+		}
+	}
+}
